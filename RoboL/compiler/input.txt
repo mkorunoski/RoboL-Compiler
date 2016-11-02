@@ -1,0 +1,8 @@
+povtoruvaj 5 pati
+!
+Odi
+!
+SvrtiLevo
+Odi
+Odi
+end

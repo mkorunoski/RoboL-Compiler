@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>green arrow right.png</file>
+        <file>reload arrow.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,185 @@
+---- povikuvanje na fukcii i scope na promenlivi --------
+
+procedura prx (broj y) pocetok
+x:broj
+x=10
+x=x-7
+print(x)
+kraj
+
+x:broj
+p,q:nasoka
+x=20
+povtoruvaj 5 pati
+!
+ako (x<10)
+!
+print(x)
+! 
+inaku
+!
+x=x-5
+print(x)
+!
+!
+povikaj prx 5
+print(x)
+end
+
+
+------ dvizenje -----
+
+x:broj
+x=10
+povtoruvaj 5 pati
+!
+Odi
+ako (x>14)
+!
+Zemi
+!
+x=x+1
+!
+SvrtiDesno
+SvrtiLevo
+end
+
+------------------- izrazi ------
+
+procedura proc1 (broj t) pocetok
+x:broj
+y:broj
+povtoruvaj 5 pati
+!
+x=10
+x=x+(2*3)
+x=x+7
+y=20
+y=x+y
+!
+print(x)
+print(y)
+kraj
+
+povikaj proc1 5
+end
+
+
+--------------- proceduri i argumenti ---------
+
+
+procedura odiYpati(broj x) pocetok
+povtoruvaj do (x>=0)
+!
+Odi
+x=x-1
+!
+kraj
+
+x,y:broj
+x=3
+
+povikaj odiYpati 3
+SvrtiLevo
+povikaj odiYpati 5
+SvrtiDesno
+end
+
+
+----- povik na funkcija od ciklus ------
+
+procedura odiYpati(broj x) pocetok
+povtoruvaj 3 pati
+!
+print(x)
+x=x-2
+!
+kraj
+
+procedura odiZpati(broj x) pocetok
+povtoruvaj 5 pati
+!
+print(x)
+x=x+2
+!
+kraj
+
+povtoruvaj 5 pati
+!
+povikaj odiYpati 2
+!
+
+povtoruvaj 2 pati
+!
+povikaj odiZpati 3
+!
+
+end
+
+
+--------------logicki greshki--------
+
+
+
+povtoruvaj do (a<5)
+!
+a=a+1
+!
+b=10
+ako (c<5)
+!
+c=I
+!
+inaku
+!
+he=Z
+!
+g:broj
+d:nasoka
+d=10
+g=I
+end
+
+--------simulacija i hendlanje na dzidovi i zeetoni -----------
+
+
+Odi
+Odi
+Odi
+SvrtiLevo
+povtoruvaj 7 pati
+!
+Odi
+!
+SvrtiDesno
+Odi
+Odi
+SvrtiLevo
+Odi
+Zemi
+Odi
+Zemi
+SvrtiDesno
+povtoruvaj 5 pati
+!
+Odi
+!
+Ostavi
+SvrtiDesno
+povtoruvaj 6 pati
+!
+Odi
+!
+SvrtiLevo
+Ostavi
+Odi
+Odi
+Zemi
+povtoruvaj 15 pati
+!
+Odi
+!
+Ostavi
+SvrtiLevo
+Odi
+end

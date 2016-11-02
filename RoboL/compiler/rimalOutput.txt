@@ -1,0 +1,13 @@
+move regGX 5
+while:
+cmp regGX 0
+JIE end_while
+GO
+move regPX regNX
+decN
+move regNX regPX
+JMP while
+end_while:
+RL
+GO
+GO
