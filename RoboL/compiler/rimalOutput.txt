@@ -1,13 +1,26 @@
+move x 10
 move regGX 5
 while:
 cmp regGX 0
 JIE end_while
 GO
+move nx x
+move mx 14
+cmp regNX regMX
+JL here
+TK
+here:
+move nx x
+move mx 1
+add nx mx
+move fx nx
+push
+pop
+move x nx
 move regPX regNX
 decN
 move regNX regPX
 JMP while
 end_while:
+RR
 RL
-GO
-GO

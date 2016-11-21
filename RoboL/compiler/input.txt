@@ -1,8 +1,14 @@
+x:broj
+x=10
 povtoruvaj 5 pati
 !
 Odi
+ako (x>14)
 !
+Zemi
+!
+x=x+1
+!
+SvrtiDesno
 SvrtiLevo
-Odi
-Odi
 end
